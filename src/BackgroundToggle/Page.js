@@ -12,7 +12,7 @@ const Page = () => {
         </label>
       </div>
 
-      <img src={img1} />
+      <img src={img1} class="container_img" />
 
       <div class="details">
         <h3>
@@ -22,7 +22,7 @@ const Page = () => {
           share processes, they become vulnerable. Let’s learn how you can build
           on that and turn it into an advantage.
         </h3>
-        <button>See more</button>
+        <button class="btn">See more</button>
       </div>
     </div>
   );
