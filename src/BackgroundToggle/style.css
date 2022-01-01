@@ -11,6 +11,13 @@
     --g-white:white;
 }
 
+.dark{
+    --primary-color:black;
+    --text-color:white;
+    --button-color:coral;
+    --g-white:white;
+}
+
 body{
     width:100%;
     min-height:100vh;

@@ -3,6 +3,12 @@ import "./style.css";
 import img1 from "./photography.jpg";
 
 const Page = () => {
+  const switchButton = document.getElementById("check");
+
+  switchButton.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+  });
+
   return (
     <div class="container">
       <div class="box">
